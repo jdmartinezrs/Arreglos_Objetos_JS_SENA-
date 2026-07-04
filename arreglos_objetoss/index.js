@@ -1,13 +1,14 @@
-import { conocerTamanho, agregarMango, deleteLastFruit, agregarUvaInicio} from './ejercicios/index.js'
+import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+
+let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+
+let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
+
+let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
+
+let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
 
 
-let frutas = ["Manzana", "Pera", "Banano"]
 
-let insertar = agregarMango (frutas, "MANGO")
-let conocer = conocerTamanho(frutas);
-let deletelast = deleteLastFruit(frutas)
-conocer = conocerTamanho(frutas);
-let agregarUva =agregarUvaInicio (frutas ,  "UVA")
-console.log(frutas)
 
 
