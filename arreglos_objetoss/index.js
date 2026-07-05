@@ -1,12 +1,12 @@
-import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+import { agregarFrutaAlInicioListaFrutas, retirarUltimoElementoDelListado, recorrerListadoFrutas } from './actividadTransferencia/index.js'
 
-let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+let inventarioFrutas = ["Manzana", "Pera", "Uva"]
 
-let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
+let aniadirFrutaAlInicio = agregarFrutaAlInicioListaFrutas(inventarioFrutas, "Banano")
 
-let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
+let retirarFrutaListado = retirarUltimoElementoDelListado(inventarioFrutas)
 
-let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
+let recorrerListado = recorrerListadoFrutas(inventarioFrutas)
 
 
 
