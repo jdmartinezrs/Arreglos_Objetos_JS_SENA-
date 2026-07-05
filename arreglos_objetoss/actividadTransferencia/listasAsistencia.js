@@ -12,7 +12,5 @@ export const eliminarPrimerNombreListaAsistencia = (alumnos) => {
 }
 
 export const mostrarTotalNombresRegistrados = (alumnos) => {
- for (let alumno of alumnos) {
-    console.log(alumno)
-  }
+  return alumnos.length
 }
