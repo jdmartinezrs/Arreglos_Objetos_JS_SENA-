@@ -1,12 +1,17 @@
-import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+import { obtenerMarcaCelular, obtenerModeloCelular, obtenerAnioCelular,obtenerEstadoCelular  } from './actividadTransferencia/index.js'
 
-let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+let caracteristicasCelular = {
+    marca: "Motorola", 
+     modelo: "G30", 
+     anio: "2018",
+    estado: "Nuevo"
+}
+    
+let obtenerMarca = obtenerMarcaCelular(caracteristicasCelular,"marca")
+let obtenerModelo = obtenerModeloCelular(caracteristicasCelular, "modelo")
+let obtenerAnio = obtenerAnioCelular(caracteristicasCelular, "modelo")
+let obtenerEstado = obtenerEstadoCelular(caracteristicasCelular, "estado")
 
-let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
-
-let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
-
-let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
 
 
 
