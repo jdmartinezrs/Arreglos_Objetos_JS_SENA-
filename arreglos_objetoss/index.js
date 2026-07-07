@@ -1,14 +1,8 @@
-import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+import {  mostrarEdadesMayoresOIgualesDiezOcho } from './actividadTransferencia/index.js'
 
-let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+let edadesPersonas = [28, 35,17,15,30]
 
-let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
-
-let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
-
-let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
-
-
+ mostrarEdadesMayoresOIgualesDiezOcho(edadesPersonas)
 
 
 

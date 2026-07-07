@@ -33,7 +33,7 @@ cada producto.
 
 GFPI-F-135 V04
 
-10.Clasificación por tipo de estructura: Observe las siguientes situaciones y decida si
+10. Clasificación por tipo de estructura: Observe las siguientes situaciones y decida si
 debe usar arreglo u objeto. Justifique con una frase, luego codifique su respuesta
 con un ejemplo.
 a. Lista de colores favoritos.
