@@ -1,14 +1,12 @@
-import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+import { aniadirTresTareasEnLista, eliminarUltimaTarea } from './actividadTransferencia/index.js'
 
-let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+let listaTareas = []
 
-let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
+let tarea 
 
-let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
-
-let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
-
-
+let aniadirTresTareas = aniadirTresTareasEnLista(tarea, listaTareas)
+let eliminarTarea = eliminarUltimaTarea(listaTareas)
+console.log(listaTareas)
 
 
 

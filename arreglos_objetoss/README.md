@@ -16,6 +16,7 @@ marca, modelo, año y estado. Muestre cada propiedad en consola de manera
 individual.
 5. Lista de tareas: Cree un arreglo vacío llamado tareas. Agregue tres actividades
 utilizando push(). Luego elimine la última utilizando pop(). Muestre el resultado.
+
 6. Describiendo un objeto personal: Cree un objeto que represente algo que lleve
 consigo todos los días (ej. audífonos, libreta, termo). Debe tener al menos cuatro
 propiedades. Recorra sus claves y valores usando un ciclo for...of sobre
