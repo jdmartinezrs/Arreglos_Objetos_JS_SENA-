@@ -1,12 +1,14 @@
-import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+import {recorrerClavesValoresObjetoPersonal} from './actividadTransferencia/index.js'
 
-let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+let objetoPersonalLibro  = {
+    titulo: "Diseño de algoritmos y su codificación en lenguaje C",
+    autor : ["María Adriana Corona Nakamura", " María de los Ángeles Ancona Valdez"],
+    anio : "2011",
+    editorial: "McGraw-Hill"
+}
 
-let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
+let recorrerObjeto = recorrerClavesValoresObjetoPersonal(objetoPersonalLibro)
 
-let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
-
-let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
 
 
 
