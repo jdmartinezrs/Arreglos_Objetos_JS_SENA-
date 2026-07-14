@@ -1,1 +1,1 @@
-export * from './listasAsistencia.js';
+export * from './objetoPersonal.js';
