@@ -1,12 +1,12 @@
-import { aniadirAlFinalListaAsistencia, eliminarPrimerNombreListaAsistencia, mostrarTotalNombresRegistrados  } from './actividadTransferencia/index.js'
+import { imprimirMensajeDescriptivoLibro  } from './actividadTransferencia/index.js'
 
-let listaEstudiantes = ["Jose", "Victor", "Marlon", "Juan", "Luisa"]
+let libro = {titulo: "Desarrollo de interfaces" ,
+            autor: " Juan Ferrer Martínez", 
+            numero_paginas: "277",
+            genero: "Desarollo de Software"}
 
-let aniadirAlFinal = aniadirAlFinalListaAsistencia(listaEstudiantes, "Karol")
-
-let eliminarPrimero = eliminarPrimerNombreListaAsistencia(listaEstudiantes)
-
-let mostrarCantidadTotal = mostrarTotalNombresRegistrados(listaEstudiantes)
+            
+imprimirMensajeDescriptivoLibro(libro)
 
 
 

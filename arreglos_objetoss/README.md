@@ -22,10 +22,14 @@ propiedades. Recorra sus claves y valores usando un ciclo for...of sobre
 Object.entries().
 7. Control de edades: Cree un arreglo con edades de cinco personas. Recorra el
 arreglo usando for...of y muestre solo las edades mayores o iguales a 18.
+
+
 8. Registro de un libro: Cree un objeto llamado libro con las propiedades: título, autor,
 número de páginas y género. Luego imprima un mensaje descriptivo usando estas
 propiedades, por ejemplo:
 "El libro '___' del autor ___ pertenece al género ___."
+
+
 9. Arreglo de objetos (integración): Cree un arreglo llamado productos que contenga
 tres objetos. Cada objeto debe representar un producto con propiedades como
 nombre, precio y disponibilidad. Recorra el arreglo y muestre solo el nombre de
@@ -33,7 +37,7 @@ cada producto.
 
 GFPI-F-135 V04
 
-10.Clasificación por tipo de estructura: Observe las siguientes situaciones y decida si
+10. Clasificación por tipo de estructura: Observe las siguientes situaciones y decida si
 debe usar arreglo u objeto. Justifique con una frase, luego codifique su respuesta
 con un ejemplo.
 a. Lista de colores favoritos.
